@@ -1,0 +1,17 @@
+Diferencias y similitudes entre clases abstractas e interfaces:
+
+-Ninguna de las dos puede ser instanciada
+-Una interfaz solo puede manejar metodos de tipo publicos, en cambio una clase abstracta puede manejar metodos de tipo público o privados.
+-Las dos no necesitan sentencias.
+-Las interfaces definen metodos los cuales deben ser obligatoriamente implementados en cambio las clases abstractas implementan sus metodos segun lo que necesitan.
+
+¿cuándo se recomienda usar una sobre la otra?
+se toma en cuenta la necesidades que tiene el proyecto en desarrollo, pero en cuestiones de fluides o facilidad se utilizan las interfaces, ya que las clases
+abstractas tienden a ser rigidas e impiden el libre manejo de clases o componentes. Por otra parte, las interfaces brindan la funcion de defirnir tipos de
+abstractos para usarlos de una manera mas facil.
+
+¿Cuándo es conveniente el usuario de tipos de datos genéricos y enumeradores?
+se toma en cuenta la necesidad que tiene el proyecto en desarrollo, pero en cuestiones de manejar unos tipos de datos especificos usamos los enumeradores, ya que 
+ellos al tener un constructor de tipo privado evitan la instancia de nuevos objetos, lo cual permite mantener el mismo tipo de dato establecido anteriormente. 
+Por otra parte, los tipos de datos genericos son almacenes de datos de diferentes tipos por eso su nombre dato generico, ese almacen recibe objetos de diferente
+tipo y los maneja de la misma manera a pesar de ser objetos de diferente tipo.
